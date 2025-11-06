@@ -10,6 +10,7 @@ from .serializer import normal_userSerializer, vendor_adminSerializer, ProductSe
 def get_vendor_admin(request):
     v_adm_obj = vendor_admin.objects.all()
     serializedObj = vendor_adminSerializer(v_adm_obj, many=True).data
+    print(Response(serializedObj))
     return Response(serializedObj)
 
 @api_view(['GET'])

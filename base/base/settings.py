@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-py+aaixgqhjps=xc-7shsg=okcwgsof)s9$8n*@(!%pcm8^vfb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-backend-for-react-3-base.onrender.com']
+ALLOWED_HOSTS = ['django-backend-for-react-3-base.onrender.com', '127.0.0.1']
 
 
 # Application definition
@@ -134,6 +134,11 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Allow all links 
-CORS_ALLOW_ALL_ORIGIN = True
+CORS_ALLOW_ORIGINS = [
+    # "http://localhost:5173/",
+    "https://django-backend-for-react-3-base.onrender.com/api/vendors/"
+]
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 
