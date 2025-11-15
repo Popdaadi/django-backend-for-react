@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-py+aaixgqhjps=xc-7shsg=okcwgsof)s9$8n*@(!%pcm8^vfb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['django-backend-for-react-3-base.onrender.com', '127.0.0.1']
+ALLOWED_HOSTS = ['django-backend-for-react-3-base.onrender.com']
 
 
 # Application definition
