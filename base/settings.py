@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-py+aaixgqhjps=xc-7shsg=okcwgsof)s9$8n*@(!%pcm8^vfb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://django-backend-for-react-4.onrender.com']
+ALLOWED_HOSTS = ['django-backend-for-react-4.onrender.com']
 
 
 # Application definition
